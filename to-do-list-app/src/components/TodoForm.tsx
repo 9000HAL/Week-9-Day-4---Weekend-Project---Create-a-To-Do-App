@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 
 const TodoForm = ({ addTodo }) => {
-  const todoInput = useRef(null); // Using uncontrolled component
+  const todoInput = useRef(null); // using uncontrolled component
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (todoInput.current.value) {
       addTodo(todoInput.current.value);
-      todoInput.current.value = ""; // Clear input
+      todoInput.current.value = ""; // clear input
     }
   }
 

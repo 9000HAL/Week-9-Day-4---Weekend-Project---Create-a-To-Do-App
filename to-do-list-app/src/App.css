@@ -1,23 +1,27 @@
 body {
-  background-color: #f5f5f5;
+  background-color: greenyellow;
   font-family: Arial, sans-serif;
 }
 
 button {
   background-color: #4CAF50;
   color: white;
-  padding: 10px;
-  margin: 10px;
+  padding: 25px;
+  margin: 25px;
   border: none;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #45a049;
+
+
+
+body {
+  margin: 50px;
+  display: grid;
+  place-items: center;
+  min-width: 320px;
+  min-height: 10vh;
 }
-
-
-
 
 
 

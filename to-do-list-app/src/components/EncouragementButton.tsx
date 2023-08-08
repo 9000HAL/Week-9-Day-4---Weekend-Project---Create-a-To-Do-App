@@ -4,7 +4,7 @@ const EncouragementButton = () => {
     }
   
     return (
-      <button onClick={handleClick}>Click Me!</button>
+      <button onClick={handleClick}>Click For Support!</button>
     );
   }
   
